@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+mips instance_name (
+    .clk(clk), 
+    .reset(reset)
+    );
+
+

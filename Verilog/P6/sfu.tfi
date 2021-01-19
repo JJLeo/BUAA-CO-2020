@@ -1,0 +1,18 @@
+
+
+
+// Instantiate the module
+sfu instance_name (
+    .if_id_I(if_id_I), 
+    .id_ex_I(id_ex_I), 
+    .ex_mem_I(ex_mem_I), 
+    .mem_wb_I(mem_wb_I), 
+    .Stall(Stall), 
+    .F_if_id_rs(F_if_id_rs), 
+    .F_if_id_rt(F_if_id_rt), 
+    .F_id_ex_rs(F_id_ex_rs), 
+    .F_id_ex_rt(F_id_ex_rt), 
+    .F_ex_mem_rt(F_ex_mem_rt)
+    );
+
+

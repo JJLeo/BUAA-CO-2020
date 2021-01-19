@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+mdu instance_name (
+    .A(A), 
+    .B(B), 
+    .Op(Op), 
+    .clk(clk), 
+    .reset(reset), 
+    .Busy(Busy), 
+    .hi(hi), 
+    .lo(lo)
+    );
+
+

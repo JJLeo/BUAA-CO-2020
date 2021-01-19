@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj P5 -o D:/coding/CO/Verilog/P6/ctrl.tfi -lib work D:/coding/CO/Verilog/P6//ctrl.v -module ctrl -template D:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

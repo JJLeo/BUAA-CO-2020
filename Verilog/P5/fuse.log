@@ -1,0 +1,41 @@
+Running: D:\ISE\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/coding/CO/Verilog/P5/tb_isim_beh.exe -prj D:/coding/CO/Verilog/P5/tb_beh.prj work.tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/coding/CO/Verilog/P5/ctrl.v" into library work
+Analyzing Verilog file "D:/coding/CO/Verilog/P5/dec.v" into library work
+Analyzing Verilog file "D:/coding/CO/Verilog/P5/sfu.v" into library work
+Analyzing Verilog file "D:/coding/CO/Verilog/P5/mem_wb.v" into library work
+Analyzing Verilog file "D:/coding/CO/Verilog/P5/if_id.v" into library work
+Analyzing Verilog file "D:/coding/CO/Verilog/P5/ifu.v" into library work
+Analyzing Verilog file "D:/coding/CO/Verilog/P5/id_ex.v" into library work
+Analyzing Verilog file "D:/coding/CO/Verilog/P5/grf.v" into library work
+Analyzing Verilog file "D:/coding/CO/Verilog/P5/ex_mem.v" into library work
+Analyzing Verilog file "D:/coding/CO/Verilog/P5/dm.v" into library work
+Analyzing Verilog file "D:/coding/CO/Verilog/P5/alu.v" into library work
+Analyzing Verilog file "D:/coding/CO/Verilog/P5/mips.v" into library work
+Analyzing Verilog file "D:/coding/CO/Verilog/P5/tb.v" into library work
+Analyzing Verilog file "D:/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module ifu
+Compiling module ctrl
+Compiling module if_id
+Compiling module grf
+Compiling module id_ex
+Compiling module alu
+Compiling module ex_mem
+Compiling module dm
+Compiling module mem_wb
+Compiling module dec
+Compiling module sfu
+Compiling module mips
+Compiling module tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 14 Verilog Units
+Built simulation executable D:/coding/CO/Verilog/P5/tb_isim_beh.exe
+Fuse Memory Usage: 31412 KB
+Fuse CPU Usage: 389 ms

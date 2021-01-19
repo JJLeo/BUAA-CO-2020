@@ -1,0 +1,37 @@
+xst -intstyle ise -ifn "D:/coding/CO/Verilog/a/b.xst" -ofn "D:/coding/CO/Verilog/a/b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s50-vqg100-4 b.ngc b.ngd  
+map -intstyle ise -p xa3s50-vqg100-4 -cm area -ir off -pr off -c 100 -o b_map.ncd b.ngd b.pcf 
+par -w -intstyle ise -ol high -t 1 b_map.ncd b.ncd b.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml b.twx b.ncd -o b.twr b.pcf 
+xst -intstyle ise -ifn "D:/coding/CO/Verilog/a/b.xst" -ofn "D:/coding/CO/Verilog/a/b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s50-vqg100-4 b.ngc b.ngd  
+map -intstyle ise -p xa3s50-vqg100-4 -cm area -ir off -pr off -c 100 -o b_map.ncd b.ngd b.pcf 
+par -w -intstyle ise -ol high -t 1 b_map.ncd b.ncd b.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml b.twx b.ncd -o b.twr b.pcf 
+xst -intstyle ise -ifn "D:/coding/CO/Verilog/a/b.xst" -ofn "D:/coding/CO/Verilog/a/b.syr" 
+xst -intstyle ise -ifn "D:/coding/CO/Verilog/a/b.xst" -ofn "D:/coding/CO/Verilog/a/b.syr" 
+xst -intstyle ise -ifn "D:/coding/CO/Verilog/a/b.xst" -ofn "D:/coding/CO/Verilog/a/b.syr" 
+xst -intstyle ise -ifn "D:/coding/CO/Verilog/a/b.xst" -ofn "D:/coding/CO/Verilog/a/b.syr" 
+xst -intstyle ise -ifn "D:/coding/CO/Verilog/a/b.xst" -ofn "D:/coding/CO/Verilog/a/b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s50-vqg100-4 b.ngc b.ngd  
+map -intstyle ise -p xa3s50-vqg100-4 -cm area -ir off -pr off -c 100 -o b_map.ncd b.ngd b.pcf 
+par -w -intstyle ise -ol high -t 1 b_map.ncd b.ncd b.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml b.twx b.ncd -o b.twr b.pcf 
+bitgen -intstyle ise -f b.ut b.ncd 
+xst -intstyle ise -ifn "D:/coding/CO/Verilog/a/b.xst" -ofn "D:/coding/CO/Verilog/a/b.syr" 
+xst -intstyle ise -ifn "D:/coding/CO/Verilog/a/b.xst" -ofn "D:/coding/CO/Verilog/a/b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s50-vqg100-4 b.ngc b.ngd  
+map -intstyle ise -p xa3s50-vqg100-4 -cm area -ir off -pr off -c 100 -o b_map.ncd b.ngd b.pcf 
+par -w -intstyle ise -ol high -t 1 b_map.ncd b.ncd b.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml b.twx b.ncd -o b.twr b.pcf 
+bitgen -intstyle ise -f b.ut b.ncd 
+bitgen -intstyle ise -f b.ut b.ncd 
+xst -intstyle ise -ifn "D:/coding/CO/Verilog/a/b.xst" -ofn "D:/coding/CO/Verilog/a/b.syr" 
+xst -intstyle ise -ifn "D:/coding/CO/Verilog/a/b.xst" -ofn "D:/coding/CO/Verilog/a/b.syr" 
+xst -intstyle ise -ifn "D:/coding/CO/Verilog/a/b.xst" -ofn "D:/coding/CO/Verilog/a/b.syr" 
+xst -intstyle ise -ifn "D:/coding/CO/Verilog/a/b.xst" -ofn "D:/coding/CO/Verilog/a/b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s50-vqg100-4 b.ngc b.ngd  
+map -intstyle ise -p xa3s50-vqg100-4 -cm area -ir off -pr off -c 100 -o b_map.ncd b.ngd b.pcf 
+par -w -intstyle ise -ol high -t 1 b_map.ncd b.ncd b.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml b.twx b.ncd -o b.twr b.pcf 
+bitgen -intstyle ise -f b.ut b.ncd 

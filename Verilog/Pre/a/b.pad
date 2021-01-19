@@ -1,0 +1,130 @@
+Release 14.7 - par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Tue Sep 01 10:33:40 2020
+
+
+# NOTE: This file is designed to be imported into a spreadsheet program
+# such as Microsoft Excel for viewing, printing and sorting. The |
+# character is used as the data field separator. This file is also designed
+# to support parsing.
+#
+INPUT FILE:       b_map.ncd
+OUTPUT FILE:      b.pad
+PART TYPE:        xa3s50
+SPEED GRADE:      -4
+PACKAGE:          vqg100
+
+Pinout by Pin Number:
+
+-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+Pin Number|Signal Name|Pin Usage|Pin Name|Direction|IO Standard|IO Bank Number|Drive (mA)|Slew Rate|Termination|IOB Delay|Voltage|Constraint|IO Register|Signal Integrity|
+P1||DIFFM|IO_L01P_7/VRN_7|UNUSED||7|||||||||
+P2||DIFFS|IO_L01N_7/VRP_7|UNUSED||7|||||||||
+P3|||GND||||||||||||
+P4||DIFFM|IO_L21P_7|UNUSED||7|||||||||
+P5||DIFFS|IO_L21N_7|UNUSED||7|||||||||
+P6|||VCCO_7|||7|||||any******||||
+P7|||VCCAUX||||||||2.5||||
+P8||DIFFM|IO_L23P_7|UNUSED||7|||||||||
+P9||DIFFS|IO_L23N_7|UNUSED||7|||||||||
+P10|||GND||||||||||||
+P11||DIFFM|IO_L40P_7|UNUSED||7|||||||||
+P12||DIFFS|IO_L40N_7/VREF_7|UNUSED||7|||||||||
+P13||DIFFM|IO_L40P_6/VREF_6|UNUSED||6|||||||||
+P14||DIFFS|IO_L40N_6|UNUSED||6|||||||||
+P15||DIFFM|IO_L24P_6|UNUSED||6|||||||||
+P16||DIFFS|IO_L24N_6/VREF_6|UNUSED||6|||||||||
+P17||DIFFM|IO|UNUSED||6|||||||||
+P18|||VCCINT||||||||1.2||||
+P19|||VCCO_6|||6|||||any******||||
+P20|||GND||||||||||||
+P21||DIFFM|IO|UNUSED||6|||||||||
+P22||DIFFM|IO_L01P_6/VRN_6|UNUSED||6|||||||||
+P23||DIFFS|IO_L01N_6/VRP_6|UNUSED||6|||||||||
+P24|||M1||||||||||||
+P25|||M0||||||||||||
+P26|||M2||||||||||||
+P27||DIFFM|IO_L01P_5/CS_B|UNUSED||5|||||||||
+P28||DIFFS|IO_L01N_5/RDWR_B|UNUSED||5|||||||||
+P29|||GND||||||||||||
+P30||DIFFM|IO_L28P_5/D7|UNUSED||5|||||||||
+P31|||VCCO_5|||5|||||any******||||
+P32||DIFFS|IO_L28N_5/D6|UNUSED||5|||||||||
+P33|||VCCAUX||||||||2.5||||
+P34||DIFFM|IO_L31P_5/D5|UNUSED||5|||||||||
+P35||DIFFS|IO_L31N_5/D4|UNUSED||5|||||||||
+P36||DIFFM|IO_L32P_5/GCLK2|UNUSED||5|||||||||
+P37||DIFFS|IO_L32N_5/GCLK3|UNUSED||5|||||||||
+P38||DIFFM|IO_L32P_4/GCLK0|UNUSED||4|||||||||
+P39||DIFFS|IO_L32N_4/GCLK1|UNUSED||4|||||||||
+P40||DIFFM|IO_L31P_4/DOUT/BUSY|UNUSED||4|||||||||
+P41|||GND||||||||||||
+P42||DIFFS|IO_L31N_4/INIT_B|UNUSED||4|||||||||
+P43||DIFFM|IO_L30P_4/D3|UNUSED||4|||||||||
+P44||DIFFS|IO_L30N_4/D2|UNUSED||4|||||||||
+P45|||VCCINT||||||||1.2||||
+P46|||VCCO_4|||4|||||any******||||
+P47||DIFFM|IO_L27P_4/D1|UNUSED||4|||||||||
+P48||DIFFS|IO_L27N_4/DIN/D0|UNUSED||4|||||||||
+P49||DIFFM|IO_L01P_4/VRN_4|UNUSED||4|||||||||
+P50||DIFFS|IO_L01N_4/VRP_4|UNUSED||4|||||||||
+P51|||DONE||||||||||||
+P52|||CCLK||||||||||||
+P53||DIFFM|IO_L01P_3/VRN_3|UNUSED||3|||||||||
+P54||DIFFS|IO_L01N_3/VRP_3|UNUSED||3|||||||||
+P55||DIFFS|IO|UNUSED||3|||||||||
+P56|||GND||||||||||||
+P57|||VCCO_3|||3|||||any******||||
+P58|||VCCAUX||||||||2.5||||
+P59||DIFFS|IO|UNUSED||3|||||||||
+P60||DIFFM|IO_L24P_3|UNUSED||3|||||||||
+P61||DIFFS|IO_L24N_3|UNUSED||3|||||||||
+P62||DIFFM|IO_L40P_3|UNUSED||3|||||||||
+P63||DIFFS|IO_L40N_3/VREF_3|UNUSED||3|||||||||
+P64|d<0>|IOB|IO_L40P_2/VREF_2|OUTPUT|LVCMOS25*|2|12|SLOW|NONE**|||UNLOCATED|NO|NONE|
+P65|d<1>|IOB|IO_L40N_2|OUTPUT|LVCMOS25*|2|12|SLOW|NONE**|||UNLOCATED|NO|NONE|
+P66|||GND||||||||||||
+P67|d<2>|IOB|IO_L24P_2|OUTPUT|LVCMOS25*|2|12|SLOW|NONE**|||UNLOCATED|NO|NONE|
+P68|d<3>|IOB|IO_L24N_2|OUTPUT|LVCMOS25*|2|12|SLOW|NONE**|||UNLOCATED|NO|NONE|
+P69|||VCCINT||||||||1.2||||
+P70|||VCCO_2|||2|||||2.50||||
+P71|d<4>|IOB|IO_L21P_2|OUTPUT|LVCMOS25*|2|12|SLOW|NONE**|||UNLOCATED|NO|NONE|
+P72|d<5>|IOB|IO_L21N_2|OUTPUT|LVCMOS25*|2|12|SLOW|NONE**|||UNLOCATED|NO|NONE|
+P73|||GND||||||||||||
+P74|d<6>|IOB|IO_L01P_2/VRN_2|OUTPUT|LVCMOS25*|2|12|SLOW|NONE**|||UNLOCATED|NO|NONE|
+P75|d<7>|IOB|IO_L01N_2/VRP_2|OUTPUT|LVCMOS25*|2|12|SLOW|NONE**|||UNLOCATED|NO|NONE|
+P76|||TDO||||||||||||
+P77|||TCK||||||||||||
+P78|||TMS||||||||||||
+P79||DIFFM|IO_L01P_1/VRN_1|UNUSED||1|||||||||
+P80||DIFFS|IO_L01N_1/VRP_1|UNUSED||1|||||||||
+P81||IOB|IO|UNUSED||1|||||||||
+P82|||GND||||||||||||
+P83|||VCCO_1|||1|||||any******||||
+P84|||VCCAUX||||||||2.5||||
+P85||DIFFM|IO_L31P_1|UNUSED||1|||||||||
+P86||DIFFS|IO_L31N_1/VREF_1|UNUSED||1|||||||||
+P87||DIFFM|IO_L32P_1/GCLK4|UNUSED||1|||||||||
+P88||DIFFS|IO_L32N_1/GCLK5|UNUSED||1|||||||||
+P89||DIFFM|IO_L32P_0/GCLK6|UNUSED||0|||||||||
+P90||DIFFS|IO_L32N_0/GCLK7|UNUSED||0|||||||||
+P91||DIFFM|IO_L31P_0/VREF_0|UNUSED||0|||||||||
+P92||DIFFS|IO_L31N_0|UNUSED||0|||||||||
+P93|||VCCINT||||||||1.2||||
+P94|||VCCO_0|||0|||||any******||||
+P95|||GND||||||||||||
+P96||DIFFM|IO_L01P_0/VRN_0|UNUSED||0|||||||||
+P97||DIFFS|IO_L01N_0/VRP_0|UNUSED||0|||||||||
+P98|||HSWAP_EN||||||||||||
+P99|||PROG_B||||||||||||
+P100|||TDI||||||||||||
+
+-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+
+* Default value.
+** This default Pullup/Pulldown value can be overridden in Bitgen. 
+****** Special VCCO requirements may apply. Please consult the device 
+       family datasheet for specific guideline on VCCO requirements. 
+
+

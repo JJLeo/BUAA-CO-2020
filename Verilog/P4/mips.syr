@@ -1,0 +1,298 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Reading design: mips.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mips.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mips"
+Output Format                      : NGC
+Target Device                      : xa7a100t-2I-csg324
+
+---- Source Options
+Top Module Name                    : mips
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\coding\CO\Verilog\P4\ifu.v" into library work
+Parsing module <ifu>.
+Analyzing Verilog file "D:\coding\CO\Verilog\P4\grf.v" into library work
+Parsing module <grf>.
+Analyzing Verilog file "D:\coding\CO\Verilog\P4\dm.v" into library work
+Parsing module <dm>.
+Analyzing Verilog file "D:\coding\CO\Verilog\P4\ctrl.v" into library work
+Parsing module <ctrl>.
+Analyzing Verilog file "D:\coding\CO\Verilog\P4\alu.v" into library work
+Parsing module <alu>.
+Analyzing Verilog file "D:\coding\CO\Verilog\P4\mips.v" into library work
+Parsing module <mips>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <mips>.
+
+Elaborating module <ctrl>.
+WARNING:HDLCompiler:413 - "D:\coding\CO\Verilog\P4\ctrl.v" Line 46: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "D:\coding\CO\Verilog\P4\ctrl.v" Line 52: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "D:\coding\CO\Verilog\P4\ctrl.v" Line 57: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\coding\CO\Verilog\P4\ctrl.v" Line 61: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "D:\coding\CO\Verilog\P4\ctrl.v" Line 68: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "D:\coding\CO\Verilog\P4\ctrl.v" Line 73: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\coding\CO\Verilog\P4\ctrl.v" Line 77: Result of 32-bit expression is truncated to fit in 2-bit target.
+
+Elaborating module <ifu>.
+Reading initialization file \"code.txt\".
+WARNING:HDLCompiler:1670 - "D:\coding\CO\Verilog\P4\ifu.v" Line 36: Signal <R> in initial block is partially initialized.
+
+Elaborating module <grf>.
+"D:\coding\CO\Verilog\P4\grf.v" Line 47. $display @0: $0 <= 0
+WARNING:HDLCompiler:413 - "D:\coding\CO\Verilog\P4\mips.v" Line 90: Result of 32-bit expression is truncated to fit in 5-bit target.
+
+Elaborating module <alu>.
+
+Elaborating module <dm>.
+"D:\coding\CO\Verilog\P4\dm.v" Line 44. $display @0: *0 <= 0
+WARNING:Xst:2972 - "D:\coding\CO\Verilog\P4\mips.v" line 36. All outputs of instance <ctrl> of block <ctrl> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\coding\CO\Verilog\P4\mips.v" line 53. All outputs of instance <ifu> of block <ifu> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\coding\CO\Verilog\P4\mips.v" line 76. All outputs of instance <grf> of block <grf> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\coding\CO\Verilog\P4\mips.v" line 105. All outputs of instance <alu> of block <alu> are unconnected in block <mips>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\coding\CO\Verilog\P4\mips.v" line 122. All outputs of instance <dm> of block <dm> are unconnected in block <mips>. Underlying logic will be removed.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <mips>.
+    Related source file is "D:\coding\CO\Verilog\P4\mips.v".
+    Summary:
+	no macro.
+Unit <mips> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst - The specified part-type was not generated at build time. XST is loading the full part-type and will therefore consume more CPU and memory.
+Loading device for application Rf_Device from file '7a100t.nph' in environment D:\ISE\14.7\ISE_DS\ISE\.
+Loading device for application Rf_Device from file '7a100t.nph' in environment D:\ISE\14.7\ISE_DS\ISE\.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <mips> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block mips, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : mips.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+
+Device utilization summary:
+---------------------------
+
+Selected Device : xa7a100tcsg324-2i 
+
+
+Slice Logic Utilization: 
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      0
+   Number with an unused Flip Flop:       0  out of      0         
+   Number with an unused LUT:             0  out of      0         
+   Number of fully used LUT-FF pairs:     0  out of      0         
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                           2
+ Number of bonded IOBs:                   0  out of    210     0%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 38.00 secs
+Total CPU time to Xst completion: 38.12 secs
+ 
+--> 
+
+Total memory usage is 5228704 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   15 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

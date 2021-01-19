@@ -1,0 +1,20 @@
+
+
+
+// Instantiate the module
+id_ex instance_name (
+    .nI(nI), 
+    .nRD1(nRD1), 
+    .nRD2(nRD2), 
+    .nPC(nPC), 
+    .clk(clk), 
+    .reset(reset), 
+    .I(I), 
+    .RD1(RD1), 
+    .RD2(RD2), 
+    .PC(PC), 
+    .ALUOp(ALUOp), 
+    .ALUSrc(ALUSrc)
+    );
+
+

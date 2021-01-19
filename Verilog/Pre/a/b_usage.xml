@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<DeviceUsageSummary rev="9">
+<DesignStatistics TimeStamp="Tue Sep 01 10:33:45 2020"><group name="NetStatistics">
+<item name="NumNets_Active" rev="9">
+<attrib name="value" value="8"/></item>
+<item name="NumNets_Gnd" rev="9">
+<attrib name="value" value="1"/></item>
+<item name="NumNets_Vcc" rev="9">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Gnd_INPUT" rev="9">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Gnd_OMUX" rev="9">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Gnd_OUTPUT" rev="9">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Vcc_INPUT" rev="9">
+<attrib name="value" value="7"/></item>
+<item name="NumNodesOfType_Vcc_VCCOUT" rev="9">
+<attrib name="value" value="4"/></item>
+</group>
+<group name="SiteStatistics">
+<item name="IOB-DIFFM" rev="9">
+<attrib name="value" value="4"/></item>
+<item name="IOB-DIFFS" rev="9">
+<attrib name="value" value="4"/></item>
+</group>
+<group name="MiscellaneousStatistics">
+<item name="AGG_BONDED_IO" rev="8">
+<attrib name="value" value="8"/></item>
+<item name="AGG_IO" rev="8">
+<attrib name="value" value="8"/></item>
+<item name="NUM_BONDED_IOB" rev="8">
+<attrib name="value" value="8"/></item>
+</group>
+</DesignStatistics>
+<DeviceUsage TimeStamp="Tue Sep 01 10:33:45 2020"><group name="SiteSummary">
+<item name="IOB" rev="9">
+<attrib name="total" value="1000000"/><attrib name="used" value="8"/></item>
+<item name="IOB_OUTBUF" rev="9">
+<attrib name="total" value="1000000"/><attrib name="used" value="8"/></item>
+<item name="IOB_PAD" rev="9">
+<attrib name="total" value="1000000"/><attrib name="used" value="8"/></item>
+</group>
+</DeviceUsage>
+<ReportConfigData TimeStamp="Tue Sep 01 10:33:45 2020"><group name="IOB_OUTBUF">
+<item name="IN" rev="9">
+<attrib name="IN_INV" value="0"/><attrib name="IN" value="8"/></item>
+</group>
+<group name="IOB_PAD">
+<item name="DRIVEATTRBOX" rev="9">
+<attrib name="12" value="8"/></item>
+<item name="IOATTRBOX" rev="9">
+<attrib name="LVCMOS25" value="8"/></item>
+<item name="SLEW" rev="9">
+<attrib name="SLOW" value="8"/></item>
+</group>
+<group name="IOB">
+<item name="O1" rev="9">
+<attrib name="O1_INV" value="0"/><attrib name="O1" value="8"/></item>
+</group>
+</ReportConfigData>
+<ReportPinData TimeStamp="Tue Sep 01 10:33:45 2020"><group name="IOB_OUTBUF">
+<item name="IN" rev="9">
+<attrib name="value" value="8"/></item>
+<item name="OUT" rev="9">
+<attrib name="value" value="8"/></item>
+</group>
+<group name="IOB_PAD">
+<item name="PAD" rev="9">
+<attrib name="value" value="8"/></item>
+</group>
+<group name="IOB">
+<item name="O1" rev="9">
+<attrib name="value" value="8"/></item>
+<item name="PAD" rev="9">
+<attrib name="value" value="8"/></item>
+</group>
+</ReportPinData>
+<CmdHistory>
+</CmdHistory>
+</DeviceUsageSummary>

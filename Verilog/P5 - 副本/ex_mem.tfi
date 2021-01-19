@@ -1,0 +1,19 @@
+
+
+
+// Instantiate the module
+ex_mem instance_name (
+    .nI(nI), 
+    .nAO(nAO), 
+    .nWD(nWD), 
+    .nPC(nPC), 
+    .clk(clk), 
+    .reset(reset), 
+    .I(I), 
+    .AO(AO), 
+    .WD(WD), 
+    .PC(PC), 
+    .MemWrite(MemWrite)
+    );
+
+

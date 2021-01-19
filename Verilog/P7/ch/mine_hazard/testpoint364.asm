@@ -1,0 +1,983 @@
+addi	$0,$0,252
+addi	$1,$0,252
+addi	$2,$0,252
+addi	$3,$0,252
+addi	$4,$0,252
+addi	$5,$0,252
+addi	$6,$0,252
+addi	$7,$0,252
+addi	$8,$0,252
+addi	$9,$0,252
+addi	$10,$0,252
+addi	$11,$0,252
+addi	$12,$0,252
+addi	$13,$0,252
+addi	$14,$0,252
+addi	$15,$0,252
+addi	$16,$0,252
+addi	$17,$0,252
+addi	$18,$0,252
+addi	$19,$0,252
+addi	$20,$0,252
+addi	$21,$0,252
+addi	$22,$0,252
+addi	$23,$0,252
+addi	$24,$0,252
+addi	$25,$0,252
+addi	$26,$0,252
+addi	$27,$0,252
+addi	$28,$0,252
+addi	$29,$0,252
+addi	$30,$0,252
+addi	$31,$0,252
+
+lui		$13,2
+mfc0	$13,$13
+mfhi	$13
+bne		$13,$13,TAG_0
+addiu	$13,$13,1
+addiu	$13,$13,1
+TAG_0:
+mflo	$1
+mfhi	$2
+addi	$1,$0,80
+addi	$2,$0,52
+lui		$13,7
+mflo	$13
+mfc0	$13,$12
+beq		$13,$1,TAG_1
+addiu	$13,$1,1
+addiu	$1,$13,1
+TAG_1:
+mflo	$1
+mfhi	$2
+addi	$1,$0,251
+addi	$2,$0,155
+lui		$0,3
+mfhi	$0
+mflo	$0
+bne		$0,$0,TAG_2
+addiu	$0,$0,1
+addiu	$0,$0,1
+TAG_2:
+mflo	$1
+mfhi	$2
+addi	$1,$0,56
+addi	$2,$0,190
+lui		$19,0
+mfc0	$19,$13
+mfhi	$19
+bgtz	$19,TAG_3
+addiu	$19,$19,1
+addiu	$19,$19,1
+TAG_3:
+mflo	$1
+mfhi	$2
+addi	$1,$0,217
+addi	$2,$0,16
+lui		$13,2
+mflo	$13
+mfc0	$13,$13
+bgez	$13,TAG_4
+addiu	$13,$13,1
+addiu	$13,$13,1
+TAG_4:
+mflo	$1
+mfhi	$2
+addi	$1,$0,208
+addi	$2,$0,195
+lui		$13,4
+mfhi	$13
+mflo	$13
+bltz	$13,TAG_5
+addiu	$13,$13,1
+addiu	$13,$13,1
+TAG_5:
+mflo	$1
+mfhi	$2
+addi	$1,$0,31
+addi	$2,$0,127
+lui		$17,6
+mfc0	$17,$12
+mfhi	$17
+blez	$17,TAG_6
+addiu	$17,$17,1
+addiu	$17,$17,1
+TAG_6:
+mflo	$1
+mfhi	$2
+addi	$1,$0,77
+addi	$2,$0,232
+lui		$20,7
+mflo	$20
+mfc0	$20,$13
+bgtz	$20,TAG_7
+addiu	$20,$20,1
+addiu	$20,$20,1
+TAG_7:
+mflo	$1
+mfhi	$2
+addi	$1,$0,82
+addi	$2,$0,71
+lui		$13,5
+mfhi	$13
+mflo	$13
+bgez	$13,TAG_8
+addiu	$13,$13,1
+addiu	$13,$13,1
+TAG_8:
+mflo	$1
+mfhi	$2
+addi	$1,$0,250
+addi	$2,$0,210
+lui		$13,3
+mfc0	$13,$13
+mfhi	$13
+bltz	$13,TAG_9
+addiu	$13,$13,1
+addiu	$13,$13,1
+TAG_9:
+mflo	$1
+mfhi	$2
+addi	$1,$0,207
+addi	$2,$0,81
+lui		$0,6
+mflo	$0
+mfc0	$0,$12
+blez	$0,TAG_10
+addiu	$0,$0,1
+addiu	$0,$0,1
+TAG_10:
+mflo	$1
+mfhi	$2
+addi	$1,$0,55
+addi	$2,$0,125
+lui		$23,5
+mfhi	$23
+lui		$23,2
+slt		$23,$23,$23
+mflo	$1
+mfhi	$2
+addi	$1,$0,80
+addi	$2,$0,192
+addi	$23,$0,149
+lui		$14,0
+mflo	$14
+lui		$14,5
+sltu	$1,$1,$14
+mflo	$1
+mfhi	$2
+addi	$1,$0,164
+addi	$2,$0,228
+lui		$14,5
+mfc0	$14,$13
+lui		$14,2
+sub		$2,$14,$2
+mflo	$1
+mfhi	$2
+addi	$1,$0,133
+addi	$2,$0,226
+lui		$0,2
+mfhi	$0
+lui		$0,2
+subu	$19,$0,$19
+mflo	$1
+mfhi	$2
+addi	$1,$0,89
+addi	$2,$0,117
+lui		$24,3
+mflo	$24
+lui		$24,5
+ori		$24,$24,121
+mflo	$1
+mfhi	$2
+addi	$1,$0,50
+addi	$2,$0,198
+lui		$14,0
+mfc0	$14,$12
+lui		$14,2
+slti	$14,$3,-4
+mflo	$1
+mfhi	$2
+addi	$1,$0,247
+addi	$2,$0,25
+addi	$14,$0,144
+lui		$14,3
+mfhi	$14
+lui		$14,5
+sltiu	$14,$4,2
+mflo	$1
+mfhi	$2
+addi	$1,$0,178
+addi	$2,$0,62
+addi	$14,$0,197
+lui		$0,0
+mflo	$0
+lui		$0,1
+xori	$0,$0,194
+mflo	$1
+mfhi	$2
+addi	$1,$0,240
+addi	$2,$0,134
+lui		$25,4
+mfc0	$25,$12
+lui		$25,0
+sll		$25,$25,1
+mflo	$1
+mfhi	$2
+addi	$1,$0,182
+addi	$2,$0,214
+addi	$25,$0,218
+lui		$14,1
+mfhi	$14
+lui		$14,6
+srl		$5,$14,2
+mflo	$1
+mfhi	$2
+addi	$1,$0,40
+addi	$2,$0,208
+lui		$14,1
+mflo	$14
+lui		$14,6
+sra		$6,$6,2
+mflo	$1
+mfhi	$2
+addi	$1,$0,149
+addi	$2,$0,183
+lui		$27,1
+mfc0	$27,$13
+lui		$27,2
+sll		$27,$0,2
+mflo	$1
+mfhi	$2
+addi	$1,$0,31
+addi	$2,$0,12
+addi	$27,$0,153
+lui		$28,2
+mfhi	$28
+lui		$28,6
+multu	$28,$28
+mflo	$1
+mfhi	$2
+addi	$1,$0,182
+lui		$14,1
+mflo	$14
+lui		$14,2
+mthi	$11
+mflo	$1
+mfhi	$2
+addi	$1,$0,237
+lui		$14,7
+mfc0	$14,$13
+lui		$14,0
+mtlo	$14
+mflo	$1
+mfhi	$2
+addi	$1,$0,252
+addi	$14,$0,137
+lui		$0,7
+mfhi	$0
+lui		$0,7
+mtc0	$1,$13
+mflo	$1
+mfhi	$2
+addi	$1,$0,126
+lui		$29,3
+mflo	$29
+lui		$29,3
+beq		$29,$29,TAG_11
+addiu	$29,$29,1
+addiu	$29,$29,1
+TAG_11:
+mflo	$1
+mfhi	$2
+addi	$1,$0,129
+lui		$14,5
+mfc0	$14,$12
+lui		$14,5
+bne		$13,$14,TAG_12
+addiu	$13,$14,1
+addiu	$14,$13,1
+TAG_12:
+mflo	$1
+mfhi	$2
+addi	$1,$0,69
+lui		$14,0
+mfhi	$14
+lui		$14,3
+beq		$14,$14,TAG_13
+addiu	$14,$14,1
+addiu	$14,$14,1
+TAG_13:
+mflo	$1
+mfhi	$2
+addi	$1,$0,110
+lui		$3,3
+mflo	$3
+lui		$3,4
+bne		$0,$3,TAG_14
+addiu	$0,$3,1
+addiu	$3,$0,1
+TAG_14:
+mflo	$1
+mfhi	$2
+addi	$1,$0,210
+lui		$30,5
+mfc0	$30,$13
+lui		$30,5
+beq		$30,$0,TAG_15
+addiu	$30,$0,1
+addiu	$0,$30,1
+TAG_15:
+mflo	$1
+mfhi	$2
+addi	$1,$0,13
+lui		$14,2
+mfhi	$14
+lui		$14,4
+bne		$15,$15,TAG_16
+addiu	$15,$15,1
+addiu	$15,$15,1
+TAG_16:
+mflo	$1
+mfhi	$2
+addi	$1,$0,231
+lui		$14,0
+mflo	$14
+lui		$14,1
+beq		$14,$16,TAG_17
+addiu	$14,$16,1
+addiu	$16,$14,1
+TAG_17:
+mflo	$1
+mfhi	$2
+addi	$1,$0,200
+lui		$18,5
+mfc0	$18,$12
+lui		$18,3
+bne		$0,$0,TAG_18
+addiu	$0,$0,1
+addiu	$0,$0,1
+TAG_18:
+mflo	$1
+mfhi	$2
+addi	$1,$0,75
+lui		$1,3
+mfhi	$1
+lui		$1,2
+bgtz	$1,TAG_19
+addiu	$1,$1,1
+addiu	$1,$1,1
+TAG_19:
+mflo	$1
+mfhi	$2
+addi	$1,$0,66
+lui		$14,0
+mflo	$14
+lui		$14,7
+bgez	$14,TAG_20
+addiu	$14,$14,1
+addiu	$14,$14,1
+TAG_20:
+mflo	$1
+mfhi	$2
+addi	$1,$0,9
+lui		$14,7
+mfc0	$14,$13
+lui		$14,5
+bltz	$14,TAG_21
+addiu	$14,$14,1
+addiu	$14,$14,1
+TAG_21:
+mflo	$1
+mfhi	$2
+addi	$1,$0,63
+lui		$0,3
+mfhi	$0
+lui		$0,2
+blez	$0,TAG_22
+addiu	$0,$0,1
+addiu	$0,$0,1
+TAG_22:
+mflo	$1
+mfhi	$2
+addi	$1,$0,168
+lui		$2,1
+mflo	$2
+lui		$2,2
+bgtz	$2,TAG_23
+addiu	$2,$2,1
+addiu	$2,$2,1
+TAG_23:
+mflo	$1
+mfhi	$2
+addi	$1,$0,23
+lui		$14,1
+mfc0	$14,$12
+lui		$14,5
+bgez	$14,TAG_24
+addiu	$14,$14,1
+addiu	$14,$14,1
+TAG_24:
+mflo	$1
+mfhi	$2
+addi	$1,$0,145
+lui		$14,5
+mfhi	$14
+lui		$14,7
+bltz	$14,TAG_25
+addiu	$14,$14,1
+addiu	$14,$14,1
+TAG_25:
+mflo	$1
+mfhi	$2
+addi	$1,$0,175
+lui		$23,3
+mflo	$23
+lui		$23,6
+blez	$23,TAG_26
+addiu	$23,$23,1
+addiu	$23,$23,1
+TAG_26:
+mflo	$1
+mfhi	$2
+addi	$1,$0,68
+lui		$31,0
+mfc0	$31,$12
+jal		TAG_27
+xor		$31,$31,$31
+addi	$1,$1,1
+TAG_27:
+mflo	$1
+mfhi	$2
+addi	$1,$0,169
+addi	$31,$0,64
+lui		$31,4
+mfhi	$31
+jal		TAG_28
+add		$31,$31,$19
+addi	$1,$1,1
+TAG_28:
+mflo	$1
+mfhi	$2
+addi	$1,$0,69
+lui		$20,3
+mflo	$20
+jal		TAG_29
+addu	$20,$31,$20
+addi	$1,$1,1
+TAG_29:
+mflo	$1
+mfhi	$2
+addi	$1,$0,105
+lui		$0,6
+mfc0	$0,$13
+jal		TAG_30
+and		$0,$31,$0
+addi	$1,$1,1
+TAG_30:
+mflo	$1
+mfhi	$2
+addi	$1,$0,89
+lui		$31,2
+mfhi	$31
+jal		TAG_31
+addi	$31,$31,199
+addi	$1,$1,1
+TAG_31:
+mflo	$1
+mfhi	$2
+addi	$1,$0,111
+lui		$31,7
+mflo	$31
+jal		TAG_32
+addiu	$20,$31,32
+addi	$1,$1,1
+TAG_32:
+mflo	$1
+mfhi	$2
+addi	$1,$0,147
+lui		$21,2
+mfc0	$21,$13
+jal		TAG_33
+andi	$31,$31,251
+addi	$1,$1,1
+TAG_33:
+mflo	$1
+mfhi	$2
+addi	$1,$0,115
+lui		$31,7
+mfhi	$31
+jal		TAG_34
+ori		$31,$31,99
+addi	$1,$1,1
+TAG_34:
+mflo	$1
+mfhi	$2
+addi	$1,$0,62
+lui		$31,6
+mflo	$31
+jal		TAG_35
+srl		$31,$31,1
+addi	$1,$1,1
+TAG_35:
+mflo	$1
+mfhi	$2
+addi	$1,$0,48
+lui		$31,4
+mfc0	$31,$13
+jal		TAG_36
+sra		$31,$21,2
+addi	$1,$1,1
+TAG_36:
+mflo	$1
+mfhi	$2
+addi	$1,$0,96
+lui		$22,4
+mfhi	$22
+jal		TAG_37
+sll		$22,$22,1
+addi	$1,$1,1
+TAG_37:
+mflo	$1
+mfhi	$2
+addi	$1,$0,187
+lui		$0,2
+mflo	$0
+jal		TAG_38
+srl		$31,$0,1
+addi	$1,$1,1
+TAG_38:
+mflo	$1
+mfhi	$2
+addi	$1,$0,221
+addi	$31,$0,111
+lui		$31,0
+mfc0	$31,$13
+jal		TAG_39
+div		$31,$31
+addi	$1,$1,1
+TAG_39:
+mflo	$1
+mfhi	$2
+addi	$2,$0,141
+lui		$31,6
+mfhi	$31
+jal		TAG_40
+divu	$24,$31
+addi	$1,$1,1
+TAG_40:
+mflo	$1
+mfhi	$2
+lui		$25,4
+mflo	$25
+jal		TAG_41
+mult	$25,$25
+addi	$1,$1,1
+TAG_41:
+mflo	$1
+mfhi	$2
+addi	$2,$0,32
+lui		$31,4
+mfc0	$31,$13
+jal		TAG_42
+multu	$0,$31
+addi	$1,$1,1
+TAG_42:
+mflo	$1
+mfhi	$2
+addi	$1,$0,159
+addi	$2,$0,254
+la		$9,TAG_43
+lui		$5,7
+mfhi	$5
+jalr	$5,$9
+nor		$5,$5,$5
+addi	$1,$1,1
+TAG_43:
+mflo	$1
+mfhi	$2
+addi	$1,$0,143
+addi	$2,$0,156
+la		$9,TAG_44
+lui		$14,3
+mflo	$14
+jalr	$14,$9
+or		$25,$14,$25
+addi	$1,$1,1
+TAG_44:
+mflo	$1
+mfhi	$2
+addi	$1,$0,12
+addi	$2,$0,67
+la		$9,TAG_45
+lui		$14,4
+mfc0	$14,$13
+jalr	$14,$9
+sllv	$26,$26,$26
+addi	$1,$1,1
+TAG_45:
+mflo	$1
+mfhi	$2
+addi	$1,$0,95
+addi	$2,$0,78
+la		$9,TAG_46
+lui		$19,0
+mfhi	$19
+jalr	$19,$9
+srlv	$0,$0,$0
+addi	$1,$1,1
+TAG_46:
+mflo	$1
+mfhi	$2
+addi	$1,$0,239
+addi	$2,$0,117
+la		$9,TAG_47
+lui		$6,2
+mflo	$6
+jalr	$6,$9
+slti	$6,$6,6
+addi	$1,$1,1
+TAG_47:
+mflo	$1
+mfhi	$2
+addi	$1,$0,96
+addi	$2,$0,137
+addi	$6,$0,47
+la		$9,TAG_48
+lui		$14,6
+mfc0	$14,$13
+jalr	$14,$9
+sltiu	$14,$27,2
+addi	$1,$1,1
+TAG_48:
+mflo	$1
+mfhi	$2
+addi	$1,$0,55
+addi	$2,$0,203
+addi	$14,$0,198
+la		$9,TAG_49
+lui		$14,6
+mfhi	$14
+jalr	$14,$9
+xori	$14,$28,175
+addi	$1,$1,1
+TAG_49:
+mflo	$1
+mfhi	$2
+addi	$1,$0,151
+addi	$2,$0,22
+la		$9,TAG_50
+lui		$0,3
+mflo	$0
+jalr	$0,$9
+addi	$11,$11,190
+addi	$1,$1,1
+TAG_50:
+mflo	$1
+mfhi	$2
+addi	$1,$0,6
+addi	$2,$0,119
+la		$9,TAG_51
+lui		$7,5
+mfc0	$7,$12
+jalr	$7,$9
+sra		$7,$7,2
+addi	$1,$1,1
+TAG_51:
+mflo	$1
+mfhi	$2
+addi	$1,$0,5
+addi	$2,$0,0
+la		$9,TAG_52
+lui		$14,2
+mfhi	$14
+jalr	$14,$9
+sll		$14,$14,2
+addi	$1,$1,1
+TAG_52:
+mflo	$1
+mfhi	$2
+addi	$1,$0,66
+addi	$2,$0,96
+la		$9,TAG_53
+lui		$14,5
+mflo	$14
+jalr	$14,$9
+srl		$14,$14,1
+addi	$1,$1,1
+TAG_53:
+mflo	$1
+mfhi	$2
+addi	$1,$0,21
+addi	$2,$0,245
+la		$9,TAG_54
+lui		$0,4
+mfc0	$0,$13
+jalr	$0,$9
+sra		$0,$18,1
+addi	$1,$1,1
+TAG_54:
+mflo	$1
+mfhi	$2
+addi	$1,$0,244
+addi	$2,$0,65
+la		$9,TAG_55
+lui		$10,1
+mfhi	$10
+jalr	$10,$9
+mthi	$10
+addi	$1,$1,1
+TAG_55:
+mflo	$1
+mfhi	$2
+addi	$1,$0,31
+la		$9,TAG_56
+lui		$15,3
+mflo	$15
+jalr	$15,$9
+mtlo	$15
+addi	$1,$1,1
+TAG_56:
+mflo	$1
+mfhi	$2
+la		$9,TAG_57
+lui		$15,5
+mfc0	$15,$13
+jalr	$15,$9
+mtc0	$15,$12
+addi	$1,$1,1
+TAG_57:
+mflo	$1
+mfhi	$2
+la		$9,TAG_58
+lui		$1,4
+mfhi	$1
+jalr	$1,$9
+div		$0,$26
+addi	$1,$1,1
+TAG_58:
+mflo	$1
+mfhi	$2
+addi	$1,$0,20
+addi	$2,$0,249
+lui		$11,4
+mflo	$11
+nop
+srav	$11,$11,$11
+mflo	$1
+mfhi	$2
+addi	$1,$0,150
+addi	$2,$0,122
+addi	$11,$0,156
+lui		$15,7
+mfc0	$15,$13
+nop
+slt		$7,$15,$7
+mflo	$1
+mfhi	$2
+addi	$1,$0,80
+addi	$2,$0,39
+lui		$15,1
+mfhi	$15
+nop
+sltu	$8,$8,$8
+mflo	$1
+mfhi	$2
+addi	$1,$0,238
+addi	$2,$0,59
+addi	$8,$0,198
+addi	$15,$0,255
+lui		$16,6
+mflo	$16
+nop
+sub		$16,$0,$0
+mflo	$1
+mfhi	$2
+addi	$1,$0,123
+addi	$2,$0,108
+addi	$16,$0,93
+lui		$12,7
+mfc0	$12,$12
+nop
+addiu	$12,$12,251
+mflo	$1
+mfhi	$2
+addi	$1,$0,71
+addi	$2,$0,22
+lui		$15,3
+mfhi	$15
+nop
+andi	$15,$15,75
+mflo	$1
+mfhi	$2
+addi	$1,$0,95
+addi	$2,$0,140
+addi	$15,$0,120
+lui		$15,3
+mflo	$15
+nop
+ori		$10,$10,19
+mflo	$1
+mfhi	$2
+addi	$1,$0,235
+addi	$2,$0,187
+addi	$15,$0,242
+lui		$21,7
+mfc0	$21,$12
+nop
+slti	$21,$21,-7
+mflo	$1
+mfhi	$2
+addi	$1,$0,23
+addi	$2,$0,54
+addi	$21,$0,244
+lui		$13,7
+mfhi	$13
+nop
+sll		$13,$13,2
+mflo	$1
+mfhi	$2
+addi	$1,$0,110
+addi	$2,$0,61
+addi	$13,$0,153
+lui		$15,7
+mflo	$15
+nop
+srl		$11,$11,1
+mflo	$1
+mfhi	$2
+addi	$1,$0,148
+addi	$2,$0,75
+addi	$15,$0,109
+lui		$15,5
+mfc0	$15,$12
+nop
+sra		$12,$12,1
+mflo	$1
+mfhi	$2
+addi	$1,$0,226
+addi	$2,$0,21
+lui		$21,2
+mfhi	$21
+nop
+sll		$21,$21,1
+mflo	$1
+mfhi	$2
+addi	$1,$0,60
+addi	$2,$0,148
+addi	$21,$0,105
+lui		$16,0
+mflo	$16
+nop
+divu	$16,$1
+mflo	$1
+mfhi	$2
+addi	$1,$0,79
+addi	$2,$0,23
+addi	$16,$0,248
+lui		$15,3
+mfc0	$15,$12
+nop
+mult	$17,$17
+mflo	$1
+mfhi	$2
+addi	$2,$0,79
+lui		$15,4
+mfhi	$15
+nop
+multu	$18,$18
+mflo	$1
+mfhi	$2
+addi	$1,$0,203
+addi	$15,$0,226
+lui		$17,0
+mflo	$17
+nop
+mthi	$17
+mflo	$1
+mfhi	$2
+addi	$1,$0,56
+addi	$2,$0,142
+addi	$17,$0,105
+lui		$17,7
+mfc0	$17,$13
+nop
+beq		$17,$17,TAG_59
+addiu	$17,$17,1
+addiu	$17,$17,1
+TAG_59:
+mflo	$1
+mfhi	$2
+addi	$1,$0,22
+addi	$2,$0,139
+lui		$15,5
+mfhi	$15
+nop
+bne		$15,$19,TAG_60
+addiu	$15,$19,1
+addiu	$19,$15,1
+TAG_60:
+mflo	$1
+mfhi	$2
+addi	$1,$0,6
+addi	$2,$0,199
+lui		$15,6
+mflo	$15
+nop
+beq		$20,$20,TAG_61
+addiu	$20,$20,1
+addiu	$20,$20,1
+TAG_61:
+mflo	$1
+mfhi	$2
+addi	$1,$0,67
+addi	$2,$0,66
+addi	$15,$0,67
+lui		$0,2
+mfc0	$0,$12
+nop
+bne		$29,$0,TAG_62
+addiu	$29,$0,1
+addiu	$0,$29,1
+TAG_62:
+mflo	$1
+mfhi	$2
+addi	$1,$0,23
+addi	$2,$0,188
+lui		$18,1
+mfhi	$18
+nop
+beq		$18,$1,TAG_63
+addiu	$18,$1,1
+addiu	$1,$18,1
+TAG_63:
+mflo	$1
+mfhi	$2
+addi	$1,$0,42
+addi	$2,$0,27
+lui		$15,0
+mflo	$15
+nop
+bne		$21,$21,TAG_64
+addiu	$21,$21,1
+addiu	$21,$21,1
+TAG_64:
+mflo	$1
+mfhi	$2
+.ktext 0x4180
+
+_entry1:
+	sw		$k0,0x2ffc($0)
+	mfc0	$k0,$12
+	mfc0	$k0,$13
+	mfc0	$k0,$14
+	addiu	$k0,$k0,4
+	mtc0	$k0,$14
+	lw		$k0,0x2ffc($0)
+	divu	$k0,$0
+	eret
+	mflo	$k0
+	mflo	$k0
+	mflo	$k0
+#end

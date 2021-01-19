@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj P5 -o D:/coding/CO/Verilog/P7/TC.tfi -lib work D:/coding/CO/Verilog/P7//TC.v -module TC -template D:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

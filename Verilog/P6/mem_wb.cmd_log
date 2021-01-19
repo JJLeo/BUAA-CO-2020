@@ -1,0 +1,2 @@
+vhdtdtfi -lang verilog -prj P5 -o D:/coding/CO/Verilog/P5/mem_wb.tfi -lib work D:/coding/CO/Verilog/P5//mem_wb.v -module mem_wb -template D:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj P5 -o D:/coding/CO/Verilog/P5/mem_wb.tfi -lib work D:/coding/CO/Verilog/P5//mem_wb.v -module mem_wb -template D:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

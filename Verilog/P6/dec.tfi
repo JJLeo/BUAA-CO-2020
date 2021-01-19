@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+dec instance_name (
+    .I(I), 
+    .j(j), 
+    .r(r), 
+    .i(i), 
+    .ld(ld), 
+    .st(st), 
+    .jal(jal)
+    );
+
+

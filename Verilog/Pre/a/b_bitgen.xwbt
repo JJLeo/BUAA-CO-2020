@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\coding\CO\Verilog\a\b.ncd
+OUTFILE=D:\coding\CO\Verilog\a\b.bit
+FAMILY=Automotive Spartan3
+PART=xa3s50-4vqg100
+WORKINGDIR=D:\coding\CO\Verilog\a
+LICENSE=WebPack
+USER_INFO=212014694_0_0_578

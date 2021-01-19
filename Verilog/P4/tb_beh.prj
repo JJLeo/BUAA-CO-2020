@@ -1,0 +1,8 @@
+verilog work "ifu.v"
+verilog work "grf.v"
+verilog work "dm.v"
+verilog work "ctrl.v"
+verilog work "alu.v"
+verilog work "mips.v"
+verilog work "tb.v"
+verilog work "D:/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj P5 -o D:/coding/CO/Verilog/P5/alu.tfi -lib work D:/coding/CO/Verilog/P5//alu.v -module alu -template D:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

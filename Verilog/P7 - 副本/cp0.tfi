@@ -1,0 +1,21 @@
+
+
+
+// Instantiate the module
+cp0 instance_name (
+    .A1(A1), 
+    .A2(A2), 
+    .WD(WD), 
+    .nEPC(nEPC), 
+    .nExc(nExc), 
+    .nBD(nBD), 
+    .HWInt(HWInt), 
+    .WE(WE), 
+    .ERET(ERET), 
+    .clk(clk), 
+    .reset(reset), 
+    .IntReq(IntReq), 
+    .RD(RD)
+    );
+
+

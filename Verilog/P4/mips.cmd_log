@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/coding/CO/Verilog/P4/mips.xst" -ofn "D:/coding/CO/Verilog/P4/mips.syr" 
+xst -intstyle ise -ifn "D:/coding/CO/Verilog/P4/mips.xst" -ofn "D:/coding/CO/Verilog/P4/mips.syr" 

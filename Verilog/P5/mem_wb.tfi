@@ -1,0 +1,18 @@
+
+
+
+// Instantiate the module
+mem_wb instance_name (
+    .nI(nI), 
+    .nWD(nWD), 
+    .nA3(nA3), 
+    .clk(clk), 
+    .reset(reset), 
+    .WD(WD), 
+    .A3(A3), 
+    .MemtoReg(MemtoReg), 
+    .RegWrite(RegWrite), 
+    .RegDst(RegDst)
+    );
+
+

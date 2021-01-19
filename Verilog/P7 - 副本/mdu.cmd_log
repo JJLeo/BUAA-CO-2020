@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj P5 -o D:/coding/CO/Verilog/P6/mdu.tfi -lib work D:/coding/CO/Verilog/P6//mdu.v -module mdu -template D:/ISE/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

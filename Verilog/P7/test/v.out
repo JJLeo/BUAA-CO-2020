@@ -1,0 +1,15 @@
+WARNING: D:\coding\CO\Verilog\P7/ifu.v:37: $readmemh(code.txt): Not enough words in the file for the requested range [0:4095].
+WARNING: D:\coding\CO\Verilog\P7/ifu.v:38: $readmemh(code_handler.txt): Not enough words in the file for the requested range [1120:2047].
+                  38@00003000: $ 5 <= 0000ff11
+                  46@00003008: $ 1 <= 7fff0000
+                  50@0000300c: $ 2 <= 7fffffff
+                  54@00003010: $ 3 <= 000005ff
+                  74@00004180: $26 <= 00003014
+                  78@00004184: $26 <= 00003018
+                  86@0000418c: $26 <= 000c0000
+                  90@00004190: $27 <= 08530000
+                 118@00004180: $26 <= 00003018
+                 122@00004184: $26 <= 0000301c
+                 130@0000418c: $26 <= 000c0000
+                 134@00004190: $27 <= 08530000
+                 154@0000301c: $17 <= 12340000
